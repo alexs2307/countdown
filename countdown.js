@@ -16,7 +16,7 @@ const timestampDiff =
     past =>
         [DAY, HOUR, MINUTE, SECOND].map((time, index, times) => {
             const diff = future - past;
-            const previousTime = times[index - 0];
+            const previousTime = times[index - 1];
 
 
 
